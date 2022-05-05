@@ -49,7 +49,7 @@ li {
 
 .weather-temperature .units {
     position: relative;
-    font-size: 16px;
+    font-size: 21px;
     top: -34px;
 }
 
@@ -94,4 +94,12 @@ li:first-letter {
     margin-top: 30px;
     text-align: center;
 
+}
+
+.weather-forecast-date {
+    font-size: 17px;
+}
+
+.weather-forecast-temperature {
+    font-size: 15px;
 }
