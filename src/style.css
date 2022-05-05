@@ -19,6 +19,7 @@ h1 {
     font-weight: 100;
     line-height: 28px;
     margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 ul {
@@ -82,8 +83,15 @@ li:first-letter {
 
 .btn {
     background-color: rgb(20, 10, 134);
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
 }
 
 #gitlink {
     text-decoration: none;
+}
+
+.weather-forecast {
+    margin-top: 30px;
+    text-align: center;
+
 }
