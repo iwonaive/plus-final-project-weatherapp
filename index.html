@@ -4,19 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="src/style.css">
     <title>WeatherApp 😶‍🌫️</title>
 </head>
 <body>
-    <h1>
-        Hello WeatherApp!
+    <div class="container">
+        <div class="weather-app-wrapper">
+            <div class="weather-app">
+                <form id="search-form" class="mb-3">
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="search" placeholder="Type a city.." class="form-control" id="city-input"
+                                autocomplete="off" />
+                        </div>
+                        <div class="col-2">
+                            <input type="submit" value="Search" class="btn btn-primary w-100" />
+                        </div>
+                        <div class="col-4">
+                            <button class="btn btn-primary" type="submit">Current location</button>
+                        </div>
+                    </div>
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li>icon </li>
+                        <li>humidity</li>
+                        <li>wind</li>
+                    </ul>
+                    
+                </div>
+                <div class="col">
+                    temp
+                </div>
+                <div class="col">
+                    <h1>
+        Warsaw
     </h1>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+
+
+
+
     
 
+<small>
+    <a href="https://github.com/iwonaive/plus-final-project-weatherapp" target="_blank"> Open source code</a> by Iwona Szy
+</small>
 
-
-
+</div>
 <script src="src/app.js"></script>
 </body>
 </html>
