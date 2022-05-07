@@ -85,6 +85,7 @@ li:first-letter {
 .btn {
     background-color: rgb(20, 10, 134);
     box-shadow: 6px 6px 1px 1px rgba(0, 0, 255, .2);
+    border: 0.5px solid rgb(20, 10, 134); 
 }
 
 #gitlink {
