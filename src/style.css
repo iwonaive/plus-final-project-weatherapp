@@ -1,6 +1,6 @@
 
 .weather-app-wrapper {
-    max-width: 480px;
+    max-width: 500px;
     margin: 30px auto;
 }
 
@@ -105,9 +105,3 @@ li:first-letter {
 .weather-forecast-temperatures {
     font-size: 15px;
 }
-
-@media screen and (min-width: 500px) {
-    .full-width-img {
-        margin: auto;
-        width: 90%;
-    }
